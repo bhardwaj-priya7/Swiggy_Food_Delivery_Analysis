@@ -5,8 +5,6 @@ Swiggy Analysis (Bangalore) based on Data Scrapped from the website.
 
 
 
-
-
 # Introduction
 Data in today's time is relevant because the more data is acquired, the more analysis can be done on it. That is why companies engage themselves in data collection at each step. Such data can be in large amounts and is not easily manageable, to manage that data companies requires data scientists. Such a large amount of data is called "Big Data". And the person who analyses the data is Data Analyst. This project focuses on extracting data from the Swiggy website, performing data cleaning and preprocessing, exploring the data for insights, and visualizing the findings. The goal is to gain valuable information that can aid in business decision-making related to food delivery and restaurants on Swiggy.
 
@@ -23,11 +21,27 @@ Data in today's time is relevant because the more data is acquired, the more ana
 ## Data Extraction Process
 Swiggy uses a dynamic website, which poses challenges for data extraction. To overcome this, we employed Python libraries such as BeautifulSoup, Selenium. Here's a brief overview of the process:
 
-1. Using BeautifulSoup and Selenium, we extracted data from the Swiggy website into HTML format.
-2. The "html_to_json" library was used to convert the HTML data into JSON format, facilitating compatibility with Python.
-3. We created two data frames: one for restaurants and another for food delivery.
-4. Data cleaning was performed to remove duplicates and address null values.
-5. The cleaned data was converted to Excel file format for further analysis.
+-Using BeautifulSoup and Selenium, we extracted data from the Swiggy website into HTML format.
+![image](https://github.com/bhardwaj-priya7/Swiggy_Food_Delivery_Analysis/assets/138392873/4422cbfc-0650-4192-acfe-2581b352506f)
+
+
+
+-The "html_to_json" library was used to convert the HTML data into JSON format, facilitating compatibility with Python
+![image](https://github.com/bhardwaj-priya7/Swiggy_Food_Delivery_Analysis/assets/138392873/61dc537d-654a-4c02-bfdd-0e5c44665857)
+
+-We created the data frame for restaurants.
+
+![image](https://github.com/bhardwaj-priya7/Swiggy_Food_Delivery_Analysis/assets/138392873/fc334205-ba50-4ad3-8e76-b0ca0538425d) 
+
+-Data cleaning was performed to remove duplicates and address null values.
+
+![image](https://github.com/bhardwaj-priya7/Swiggy_Food_Delivery_Analysis/assets/138392873/02b0492b-c87f-49a4-b692-a21fac256ca3)
+
+
+-The cleaned data was converted to Excel file format for further analysis.
+
+![image](https://github.com/bhardwaj-priya7/Swiggy_Food_Delivery_Analysis/assets/138392873/7d9fedd3-afa6-4992-9077-8042d35644a6)
+
 
 ## Data Cleaning
 ### Importing Data
@@ -36,18 +50,17 @@ We imported the extracted data into Excel for data cleaning and preprocessing.
 ### Data Cleaning Process
 1. Duplicates were identified and removed.
 2. Null values were handled using appropriate methods.
+   
 
 ## Data Exploration
 ### Overview
 Data exploration is crucial for uncovering insights and patterns.
 
 ### Insights and Findings
-- We discovered [mention a few key findings].
-- [Describe any trends or patterns observed].
 
-### Data Visualization
 We visualized our findings using various charts and graphs, including bar charts, pie charts, and scatter plots. Here are some examples:
 ![image](https://github.com/bhardwaj-priya7/Swiggy-Food-Delivery-Analysis/assets/138392873/d7f1f395-7bf3-41d5-af4d-e04c70887a1b)
+
 ![image](https://github.com/bhardwaj-priya7/Swiggy-Food-Delivery-Analysis/assets/138392873/b62f4da7-0f52-4187-b6a4-f9b9f7b12c67)
 
 
@@ -76,9 +89,7 @@ This project aimed to enhance decision-making processes by extracting, cleaning,
 These key findings offer valuable insights that can guide Swiggy's business strategies and enhance its competitive advantage in the food delivery market.
 
 
-### Limitations and Challenges
-- [Discuss any limitations or challenges faced during the project].
-- [Explain how these limitations may affect the project's scope].
+
 
 ### Limitations and Challenges
 - During the data extraction process, we encountered challenges related to Swiggy's dynamic website structure. This dynamic nature made it necessary to use libraries like Selenium, which added complexity to the extraction process.
@@ -88,15 +99,6 @@ These key findings offer valuable insights that can guide Swiggy's business stra
 - Data cleaning and preprocessing required careful handling of null values and duplicates. Despite our best efforts, some inconsistencies in the source data might still exist.
 
 - The scope of this project was limited to a specific city or region, and the findings may not be universally applicable to all markets where Swiggy operates.
-
-### Impact on Project Scope
-- The challenges faced during data extraction and cleaning may have limited the volume of data we were able to process, potentially affecting the comprehensiveness of our insights.
-
-- The time-consuming nature of data extraction impacted the project timeline, which could have allowed for more extensive data exploration and analysis with additional time and resources.
-
-- While we made efforts to ensure data accuracy, the presence of inconsistencies in the source data might influence the precision of our findings.
-
-- The regional focus of the project means that the insights and location suggestions are specific to the chosen city or region and may not apply to other markets where Swiggy operates. Further analysis would be needed for broader applicability.
 
 
 ## Acknowledgments
