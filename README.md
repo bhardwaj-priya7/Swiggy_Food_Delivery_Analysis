@@ -1,5 +1,6 @@
 # Swiggy-Food-Delivery-Analysis
 Swiggy Analysis (Bangalore) based on Data Scrapped from the website.
+![Food Delivery! Quirky app UI animation](https://github.com/bhardwaj-priya7/Swiggy_Food_Delivery_Analysis/assets/138392873/14444b96-3843-4f30-84e4-86d447061888)
 
 
 
